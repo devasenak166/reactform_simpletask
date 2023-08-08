@@ -1,0 +1,42 @@
+body{
+  background-color: aliceblue;
+}
+
+h1{
+font-size:1.4rem;
+margin-bottom:0.5rem;
+}
+p{
+margin-bottom: 2rem;
+}
+.sign-up{
+  background-color:rgb(250, 235, 224);
+  max-width:25rem;
+  margin:2rem auto;
+  padding :2rem;
+}
+form{
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+}
+.input-grup{
+  display:flex;
+  flex-direction:column;
+  gap:0.5rem;
+}
+input {
+  padding:0.5rem;
+  border:1px solid gray;
+  font-size:1rem;
+}
+button{
+  padding:0.5rem;
+  font-size:1rem;
+  border:none;
+  background-color: rgb(241, 137, 105);
+}
+.error-mesg{
+  color:red;
+  font-size: 12px;
+}
